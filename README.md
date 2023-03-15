@@ -26,7 +26,8 @@ Começando
 Clone este repositório. Você precisa ter node.js e git instalados globalmente em sua máquina.
 
 🛠 Instruções de instalação e configuração
-Instalação: npm install
+Instalação: 
+npm install
 
 No diretório do projeto, você pode executar: npm start
 
@@ -34,6 +35,3 @@ Executa o aplicativo no modo de desenvolvimento.
 Abra http://localhost:3000 para visualizá-lo no navegador.
 A página será recarregada se você fizer edições.
 
-Instruções de uso
-Abra a pasta do projeto e navegue até /src/components/. <br/>
-Você encontrará todos os componentes usados e poderá editar suas informações de acordo com sua necessidade.
