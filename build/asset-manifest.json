@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c2a2eb34.css",
+    "main.js": "/static/js/main.13418e20.js",
+    "static/js/415.4d6acbeb.chunk.js": "/static/js/415.4d6acbeb.chunk.js",
+    "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
+    "static/media/SuperFilmes.png": "/static/media/SuperFilmes.0761b2315185fb8d4c4a.png",
+    "static/media/Portifolio.png": "/static/media/Portifolio.54531e4ac84bcf7ca4bb.png",
+    "static/media/home-main.svg": "/static/media/home-main.541f8179af8209ce03ccf2178fe62dbf.svg",
+    "static/media/about.png": "/static/media/about.aee0f771fbfc1e7b8fa8.png",
+    "static/media/curriculo.pdf": "/static/media/curriculo.74c286191bf2bf1b7571.pdf",
+    "static/media/perfil.png": "/static/media/perfil.cc0e375185ee0cb0ff2f.png",
+    "static/media/home-bg.jpg": "/static/media/home-bg.dc52d5d40a40b13154b0.jpg",
+    "static/media/Snake.png": "/static/media/Snake.bea2c3f47b5d9ed07c83.png",
+    "static/media/pre.svg": "/static/media/pre.d4812f51c8c80976eaab.svg",
+    "index.html": "/index.html",
+    "main.c2a2eb34.css.map": "/static/css/main.c2a2eb34.css.map",
+    "main.13418e20.js.map": "/static/js/main.13418e20.js.map",
+    "415.4d6acbeb.chunk.js.map": "/static/js/415.4d6acbeb.chunk.js.map",
+    "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c2a2eb34.css",
+    "static/js/main.13418e20.js"
+  ]
+}
