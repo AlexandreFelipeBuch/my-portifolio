@@ -6,25 +6,6 @@
   <img alt="Demo" src="./Images/readme-img1.png" />
 </div>
 <br/>
-<center>
-forthebadge  
-forthebadge  
-forthebadge  
-GitHub Repo stars  
-GitHub forks
-
-</center>
-<h3 align="center">
-    🔹
-    <a href="https://github.com/soumyajit4419/Portfolio/issues">Reportar Bug</a> &nbsp; &nbsp;
-    🔹
-    <a href="https://github.com/soumyajit4419/Portfolio/issues">Solicitar Funcionalidade</a>
-</h3>
-TL;DR
-Você pode fazer um fork desse repositório para modificar e fazer alterações de acordo com sua necessidade. Por favor, me dê os devidos créditos linkando para Soumyajit4419. Obrigado!
-
-Construído com
-Meu portfólio pessoal <a href="https://soumyajit.vercel.app/" target="_blank">soumyajit.tech</a>, que apresenta alguns dos meus projetos no Github, bem como meu currículo e habilidades técnicas.<br/>
 
 Este projeto foi construído utilizando as seguintes tecnologias.
 
