@@ -2,12 +2,9 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import superFilmes from "../../Assets/Projects/SuperFilmes.png";
+import Snake from "../../Assets/Projects/Snake.png";
+import Portifolio from "../../Assets/Projects/Portifolio.png";
 
 function Projects() {
   return (
@@ -15,76 +12,41 @@ function Projects() {
       <Particle />
       <Container>
         <h1 className="project-heading">
-          My Recent <strong className="purple">Works </strong>
+          Meus <strong className="purple">Projetos </strong>
         </h1>
         <p style={{ color: "white" }}>
-          Here are a few projects I've worked on recently.
+          Aqui estão alguns projetos nos quais trabalhei recentemente.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={Portifolio}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="Portifólio"
+              description="Portidólio feito em React construída com a biblioteca JavaScript e React. O React permite a criação de componentes reutilizáveis e interativos, o que torna a construção de interfaces dinâmicas e responsivas mais fácil. Ao construir um site com React, é possível utilizar recursos como roteamento, gerenciamento de estado e comunicação com APIs. Além disso, o React também oferece ferramentas de desenvolvimento para facilitar a depuração e o teste de código. Com uma estrutura bem organizada e um design adequado, é possível construir um site profissional e moderno utilizando o React, oferecendo uma experiência de usuário mais fluida e satisfatória."
+              ghLink="https://felipe-buch-portifolio.netlify.app"
+              demoLink="https://snakegamejavascript.netlify.app/"
             />
           </Col>
-
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={superFilmes}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="Super Filmes"
+              description="Projeto React que utiliza uma API para exibir dados de filmes na tela. Os usuários podem salvar seus filmes favoritos e assistir aos trailers no YouTube. O projeto inclui as seguintes funcionalidades:
+                           Consumo de dados da API para exibir informações do filme, como título, descrição e imagem; Opção de salvar filmes favoritos para visualização posterior; Interação com o YouTube para fornecer um link direto para assistir ao trailer do filme."
+              ghLink="https://github.com/AlexandreFelipeBuch/super-filmes"
+              demoLink="https://superfilmesreact.netlify.app/"
             />
           </Col>
-
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={Snake}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={leaf}
-              isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={suicide}
-              isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={emotion}
-              isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              title="Snake Game"
+              description="Desenvolvi um jogo Snake usando JavaScript. O jogo é baseado no clássico jogo Snake dos anos 90, no qual os jogadores controlam uma cobra que come bolinhas para crescer e evitar bater nas paredes ou em seu próprio corpo. No meu jogo, utilizei JavaScript para criar a lógica do jogo e tornar a experiência do usuário interativa e agradável. Foi um projeto divertido e desafiador, que me permitiu aprimorar minhas habilidades em JavaScript e desenvolvimento de jogos."
+              ghLink="https://github.com/AlexandreFelipeBuch/Snake"
+              demoLink="https://snakegamejavascript.netlify.app/"
             />
           </Col>
         </Row>
